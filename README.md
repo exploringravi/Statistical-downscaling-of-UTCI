@@ -6,7 +6,6 @@ This repository contains the Google Earth Engine workflow and post-processing co
 
 > Pandey, R. K., Pisello, A. L., Cureau, R. J., Papadopoulos, P., Kyprianou, I., & Carlucci, S. *Neighbourhood-Scale UTCI Mapping by Statistical Downscaling of Reanalysis Using Earth Observation Across Three European Cities*. Submitted to GIScience & Remote Sensing.
 
-**Archived release DOI:** [add the Zenodo DOI badge here once the release is minted]
 
 ## Overview
 
