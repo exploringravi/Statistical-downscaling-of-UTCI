@@ -82,7 +82,7 @@ If you use this code, please cite both the paper and the archived release.
   title   = {Statistical Downscaling of UTCI},
   year    = {2026},
   url     = {https://github.com/exploringravi/Statistical-downscaling-of-UTCI},
-  doi     = {[Zenodo DOI]}
+  doi     = {(https://doi.org/10.5281/zenodo.21486895)}
 }
 ```
 
