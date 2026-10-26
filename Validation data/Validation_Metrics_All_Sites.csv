@@ -1,0 +1,21 @@
+City,Site,Variable,Units,n,RMSE,MAE,Bias,MedAE,Willmott_d,R2,Slope,Intercept
+Perugia,Pian di Massiano,Air temperature,°C,89,0.712,0.607,-0.167,0.589,0.781,0.39,0.669,9.873
+Perugia,Pian di Massiano,Relative humidity,%,75,2.064,1.586,0.166,1.372,0.851,0.541,0.878,3.515
+Perugia,Pian di Massiano,Wind speed,m/s,92,0.741,0.613,-0.183,0.537,0.642,0.19,0.33,0.725
+Perugia,UniStra,Air temperature,°C,93,0.715,0.584,0.124,0.486,0.724,0.295,0.626,12.694
+Perugia,UniStra,Relative humidity,%,79,1.264,1.033,0.094,1.013,0.718,0.295,0.415,10.841
+Perugia,UniStra,Wind speed,m/s,79,0.734,0.59,-0.046,0.576,0.751,0.515,0.379,0.926
+Perugia,Cortonese,Air temperature,°C,70,1.175,0.977,-0.013,0.845,0.639,0.166,0.483,14.207
+Perugia,Cortonese,Relative humidity,%,59,1.619,1.347,-1.149,1.231,0.895,0.816,0.778,5.792
+Limassol,Ayia Napa,Air temperature,°C,143,0.345,0.303,-0.298,0.328,0.815,0.816,0.719,6.349
+Limassol,Ayia Napa,Relative humidity,%,143,2.96,2.721,-2.678,3.007,0.475,0.425,0.934,1.225
+Limassol,Ayia Napa,Wind speed,m/s,143,0.626,0.476,-0.358,0.387,0.869,0.882,0.565,0.623
+Limassol,Episkopi,Air temperature,°C,34,0.317,0.245,0.02,0.186,0.959,0.85,0.906,2.227
+Limassol,Episkopi,Relative humidity,%,34,0.591,0.475,-0.178,0.417,0.931,0.787,0.778,13.115
+Limassol,Episkopi,Wind speed,m/s,34,0.676,0.586,-0.416,0.603,0.82,0.642,0.61,0.502
+P1 and P2,P1,Air temperature,°C,24,0.53,0.429,0.072,0.361,0.994,0.978,1.022,-0.4
+P1 and P2,P1,Relative humidity,%,24,8.132,6.256,-3.109,5.003,0.929,0.775,0.89,4.191
+P1 and P2,P1,Wind speed,m/s,24,0.519,0.398,-0.236,0.301,0.769,0.481,0.508,0.221
+P1 and P2,P2,Air temperature,°C,24,0.661,0.527,-0.344,0.435,0.992,0.977,0.953,0.692
+P1 and P2,P2,Relative humidity,%,24,7.288,5.72,-1.818,4.2,0.944,0.807,0.9,4.538
+P1 and P2,P2,Wind speed,m/s,24,0.6,0.469,-0.392,0.437,0.825,0.659,0.668,0.056

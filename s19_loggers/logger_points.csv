@@ -1,0 +1,10 @@
+campaign,id,logger,lat,lon,height_m,source,uncert_m
+2021-06,S1,Barton_Park,43.111201,12.361422,,"median of EnviWear GPS at the 10 min stop, 7 walks",10
+2021-06,S2,Pian_di_Massiano,43.109274,12.360666,,"median of EnviWear GPS at the 10 min stop, 7 walks",10
+2021-06,S3,Menchetti,43.106317,12.36252,,"median of EnviWear GPS at the 10 min stop, 7 walks",10
+2021-06,S5,Farmacia_Cortonese,43.105581,12.368952,,"median of EnviWear GPS at the 10 min stop, 7 walks",10
+2022,P1,Gallenga,43.114896,12.389602,2,"Tarpani et al. 2024 Fig. 2, georeferenced to EnviWear GPS track (bus stop check 3 m)",10
+2022,P2,Lo_Chalet,43.110534,12.392592,2,"Tarpani et al. 2024 Fig. 2, georeferenced to EnviWear GPS track (bus stop check 3 m)",10
+2022,P3,Ripa_di_Meana,43.110014,12.391314,2,"Tarpani et al. 2024 Fig. 2, georeferenced to EnviWear GPS track (bus stop check 3 m)",10
+2022,P4,Palazzina_Valitutti,43.110129,12.393955,2,"Tarpani et al. 2024 Fig. 2, georeferenced to EnviWear GPS track (bus stop check 3 m)",10
+2022,P5,Succursale_Galilei,43.111188,12.393851,2,"Tarpani et al. 2024 Fig. 2, georeferenced to EnviWear GPS track (bus stop check 3 m)",10

@@ -26,15 +26,19 @@ Applied to three European cities: Limassol (Cyprus), Perugia (Italy), and Aachen
 ## Repository structure
 
 ```
-gee/                 Google Earth Engine scripts (JavaScript)
-  [main_workflow.js]     End-to-end downscaling and UTCI computation
-  [predictors.js]        Predictor and environmental proxy generation
-python/              Post-processing and validation (Python)
-  [validation.py]        Model versus observation statistics
-  [figures.py]           Figure generation
-data/                Derived validation tables
-LICENSE
-README.md
+Raster_Data/         10 m UTCI maps for the three cities, 15 July and 31 December 2025, 14:00 local time
+pipeline/            Earth Engine workflow run through the Python API (revised run used in the R1 paper)
+  config.py              Cities, dates, field sites and Earth Engine settings
+  utci_method.py         Predictors, Random Forest downscaling, corrections, wind, MRT and UTCI
+  utci_pipeline.py       Runs every city, date and field site
+  utci_compute.py        UTCI from the exported fields
+Validation data/     Observation and model pairs for Perugia, Limassol and Nicosia, and all validation metrics
+python/
+  validation_analysis.py Tables 6 and 7, Supplementary S1, S2, S6 and S10, Figures 10 to 12 and 14
+  grouped_cv.py          Grouped cross-validation (Supplementary S11)
+s19_loggers/         Fixed-logger test at night (Supplementary S19): script, logger positions and results
+data/grouped_cv/     Samples and results of the grouped cross-validation
+gee/                 Earth Engine JavaScript used for the grouped cross-validation samples
 ```
 
 ## Input datasets
@@ -57,7 +61,7 @@ All inputs are freely and globally available.
 1. Open the scripts in `gee/` in the Earth Engine Code Editor.
 2. Set the region of interest, the target date, and the target hour at the top of the main script.
 3. Run the workflow. Outputs export to Google Drive as 10 m GeoTIFFs.
-4. Run the scripts in `python/` for validation statistics and figures.
+4. Run `python python/validation_analysis.py` from the repository root to reproduce the validation statistics and figures.
 
 Install Python dependencies with:
 
@@ -67,9 +71,7 @@ pip install -r requirements.txt
 
 ## Data availability
 
-Derived model outputs and validation comparison tables are included in `data/`.
-
-Field observation data are subject to third-party restrictions. The Perugia and Limassol mobile campaign records were collected with EnviWear systems by collaborators at the University of Perugia. The Nicosia fixed station records were collected under the RE-ACT Schools project. [Adjust this section to state exactly what you are releasing, and name the contact point for the restricted records.]
+The 10 m UTCI maps are in `Raster_Data/`. The observation and model pairs behind every validation statistic are in `Validation data/`. The raw EnviWear and TinyTag records from Perugia were collected by collaborators at the University of Perugia, and the Nicosia station records under the RE-ACT Schools project; they are available from the authors on request.
 
 ## Citation
 

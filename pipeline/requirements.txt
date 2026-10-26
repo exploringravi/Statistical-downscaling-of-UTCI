@@ -1,0 +1,12 @@
+earthengine-api>=1.0
+numpy
+pandas
+openpyxl
+rasterio
+matplotlib
+thermofeel>=2.1
+scikit-learn
+tzdata
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
